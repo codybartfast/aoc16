@@ -1,8 +1,9 @@
 open System
 open System.Text.RegularExpressions
 
-let text = IO.File.ReadAllText("Day0.txt")
-let lines = text.Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+let lines = IO.File.ReadAllLines("Day0.txt")
+
+
 
 [<EntryPoint>]
 let main argv =
