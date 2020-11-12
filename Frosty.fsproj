@@ -4,6 +4,6 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Day04.fs" />
+    <Compile Include="Day05.fs" />
   </ItemGroup>
 </Project>
