@@ -4,6 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Day07.fs" />
+    <Compile Include="Grid.fs" />
+    <Compile Include="Day08.fs" />
   </ItemGroup>
 </Project>
