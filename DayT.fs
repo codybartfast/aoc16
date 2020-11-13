@@ -1,7 +1,7 @@
 open System
 open System.Text.RegularExpressions
 
-let lines = IO.File.ReadAllLines("Day0.txt")
+let lines = IO.File.ReadAllLines("Day1.txt")
 
 
 
