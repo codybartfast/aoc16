@@ -27,6 +27,11 @@ let rec permutations list =
     | [] -> [[]]
     | head::tail -> List.collect (insAlong head) (permutations tail)
 
+let adjcrds (x, y) width height =
+    // aoc16:22
+    [(x + 1, y); (x, y + 1), (x -1, y), (x, y - 1)]
+    |> List.filter (fun (x, y) -> 0 <= x && x < width && 0 <= y && y < height
+
 let mapToString (map:Map<(int * int), int64>) =
     // aoc18:20
     let valueAsChar = function
